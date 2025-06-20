@@ -16,17 +16,12 @@ for i in range(no_of_number):
     num+= [str(random.randint(0,9))]
 
 password = random.choices(letters,k = no_of_letter) + random.choices(symbols,k = no_of_symbol) + num
-
 # print(password,'\n')
 # print("noraml password generated is :",''.join(password))
-
 random.shuffle(password)
 print('random generated password is :', ''.join(password))
 
-
-
 # or 
-
 ''' use random choice with for loop 
     store in a list    
     concatenate the list
