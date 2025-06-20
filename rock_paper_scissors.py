@@ -3,8 +3,8 @@ import random
 computer_choice = random.randint(0,2)
 
 user_choice = int (input ("enter 0 for rock , 1 for paper , 2 for scissors : " ) )
-
 print(f"\n coputer_choice is : {computer_choice} \n user_choice is : {user_choice}\n")
+
 if (user_choice == computer_choice) :
     print("it is a draw")
 
